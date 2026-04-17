@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F1F26;
+}
+.header nav a {
+    color: white;
+    font-family: "Poppins";
+    text-decoration: none;
+    padding-left: 20px;
+}
+.logo{
+    width: clamp(50px, 10vw, 10px);
+    height: auto;
+}
+.section1 {
+  height: 100vh;
+  background: url('../images/Joycafe-background.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#body-logo {
+  width: clamp(120px, 25vw, 300px);
+  height: auto;
+}
+.greet {
+  font-size: clamp(120px, 4vw, 30rem);
+  color: white;
+  margin-top: 10px;
+  font-family: "Zen Loop";
+}
+
+
+/* for section "ABOUT" */
+.section-about{
+    display: flex;
+    background-color: #1F1F26;
+    color: white;
+    font-family: "Zen Loop";
+    flex-wrap: wrap;
+}
+.hAbout{
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    font-size: 80px;
+    flex: 1;
+}
+.store-images{
+    width: 50%;
+}
+
+
+
+
+
+
+/* This area is for Using online fonts */
+.zen-loop-regular {
+  font-family: "Zen Loop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
