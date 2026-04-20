@@ -41,23 +41,42 @@ body{
 
 /* for section "ABOUT" */
 .section-about{
-    display: flex;
-    background-color: #1F1F26;
-    color: white;
-    font-family: "Zen Loop";
-    flex-wrap: wrap;
+  font-family: "Zen Loop";
+  text-align: center;
+  color:white;
+  background-color: #1F1F26 ;
+  width: 50%;
+  padding: 50px;
+  position: absolute;
+  height: 22vh;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
 }
-.hAbout{
-    text-align: center;
-    justify-content: space-between;
-    flex-grow: 1;
-    font-size: 80px;
-    flex: 1;
+.abouth1{
+  font-size: clamp(90px, 3vw, 50px);
+  display: flex;
+  padding-left: 35%;
+  
 }
-.store-images{
-    width: 50%;
+.about-txt{
+  font-size: clamp(20px, 1.5vw, 30px);
+  text-align: center;
+  width: 80%;
 }
-
+/* store image */
+.section-image{
+  display: flex;
+  justify-content: flex-end;
+}
+#store-image{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 100%;
+  background-size:auto;
+}
 
 
 
